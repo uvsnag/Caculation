@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  googleSheetsApiKey: 'AIzaSyCqMmFYluF_XW-SbP6PxLY83ItLP4N8--g',
+  characters: {
+    spreadsheetId: '1J7Jdspcz_oR56x74DfnFVDPtImTfvOCUAbZkOZ5Xtqk',
+    worksheetName: 'Main',
+  },
 };
 
 /*
